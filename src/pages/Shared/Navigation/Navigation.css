@@ -1,0 +1,25 @@
+.link-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 25px;
+    padding:10px 15px;
+    height:30px;
+    background-color:rgba(15, 13, 14, 0.829);
+    margin-bottom:25px;
+    text-decoration: none;
+}
+.link-button-text{
+  display:none;
+  padding:5px 10px;
+  text-decoration: none;
+  list-style: none;
+}
+.link-button-icon{
+  font-size:30px;
+}
+
+.link-button:hover .link-button-text{
+    display:block;
+}
