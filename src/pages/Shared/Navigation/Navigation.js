@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor:"transparent",
     [theme.breakpoints.down("sm")]: {
       position: "fixed",
-      top: "85%",
+      top: "87%",
       right: "0%",
       backgroundColor: "rgb(224 13 250)",
       height: "44px",

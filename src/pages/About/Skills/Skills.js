@@ -5,6 +5,17 @@ import { styled } from "@mui/material/styles";
 import LinearProgress, {
   linearProgressClasses,
 } from "@mui/material/LinearProgress";
+import { makeStyles } from "@material-ui/core";
+
+const useStyles = makeStyles((theme) => ({
+  skillWidth: {
+    width:"420px",
+    paddingBottom:"30px",
+    [theme.breakpoints.down("sm")]: {
+      width:"300px"
+    },
+  },
+}));
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
@@ -21,8 +32,9 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 }));
 
 const Skills = () => {
+  const classes=useStyles();
   return (
-    <div style={{ width:"420px",paddingBottom:"30px"}}>
+    <div className={classes.skillWidth}>
         <Typography style={{textAlign:"center"}} variant="h4" gutterBottom component="div">
         My Skills
       </Typography>

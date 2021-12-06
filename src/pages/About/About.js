@@ -7,8 +7,20 @@ import Skills from "./Skills/Skills";
 import PersonalInfo from "./PersonalInfo/PersonalInfo";
 import { green, pink } from '@mui/material/colors';
 import photo2 from "../../images/rasel2.png";
+import { makeStyles } from "@material-ui/core";
+
+const useStyles = makeStyles((theme) => ({
+  summaryText: {
+    textAlign:"center",
+    padding:"20px 100px 40px 100px",
+    [theme.breakpoints.down("sm")]: {
+      padding:"10px 20px",
+    },
+  },
+}));
 
 const About = () => {
+  const classes=useStyles();
   return (
     <div
       style={{
@@ -33,7 +45,7 @@ const About = () => {
           >
             About <span style={{ color: "rgb(174, 10, 207)" }}> Me</span>
           </Typography>
-          <Typography   sx={{ textAlign: "center", px:16,pb:8}} variant="body1" gutterBottom>
+          <Typography   className={classes.summaryText} variant="body1" gutterBottom>
           I am a self-motivated web developer with huge knowledge and
 self-thought.Comfortable with React, Node, MongoDB, and many web-based
 technologies. My passion is to learn new technologies.

@@ -78,7 +78,7 @@ const Home = () => {
               </Typography>
               <ColorButton sx={{mb:2}} variant="contained"> <a className="resume-link" href="https://drive.google.com/file/d/1SKmkXUYHQS9yCcOYqjU_Bz_nNf2nvC6D/view?usp=sharing">Download Resume</a>  </ColorButton>
              
-              <Box sx={{ "& > :not(style)": { m: 2 } }}>
+              <Box sx={{ "& > :not(style)": { mr: 2,mt:2 } }}>
                 <Fab style={{backgroundColor:"rgb(174, 10, 207)",color:"white"}} aria-label="edit">
                 <a className="resume-link" href="https://www.linkedin.com/in/md-rasel-madbor-17b5a7216/"><LinkedInIcon/></a>
                 </Fab>
