@@ -2,6 +2,13 @@
     "id": 1,
     "projectName": "Sweet Home",
     "image": "https://i.imgur.com/Q9OBLWg.png",
+    "detailInfo":"This is an apartment booking base website.This site is authentication with the help of firebase.In this site users can saw here all booking apartment.And Also he or she can Delete his booking on the dashboard feature.IF the user is login then only he or she can use the feature of the dashboard.User can also give his feedback also in the dashboard section of review page",
+   
+      "image1": "https://i.imgur.com/3xAw5Uf.png",
+      "image2": "https://i.imgur.com/RABcsEe.png",
+      "image3": "https://i.imgur.com/dnylUqa.png",
+      "image4": "https://i.imgur.com/ip74DVL.png",
+
     "LiveSiteLink": "https://sweet-home-ece1c.web.app/",
     "ClientSiteLink": "https://github.com/RaselMadbor-01/sweet_home_client_site",
     "ServerSiteLink": "https://github.com/RaselMadbor-01/sweet_home_server_site-/"
@@ -9,6 +16,13 @@
     "id": 2,
     "projectName": "Fantastic Holidays",
     "image": "https://i.imgur.com/J2cfBCJ.png",
+    "detailInfo":"This is an travel and tour organization.In this website you can book your favourite place for traveling.In this site you can also see your bookings too.By any reason you can also delete your bookings.This is an authentication base website.",
+ 
+      "image1": "https://i.imgur.com/NYRRnaI.png",
+      "image2": "https://i.imgur.com/meoWJut.png",
+      "image3": "https://i.imgur.com/4tQjiK2.png",
+      "image4": "https://i.imgur.com/e8GAYLO.png",
+  
     "LiveSiteLink": "https://fantastic-holidays.web.app/",
     "ClientSiteLink": "https://github.com/RaselMadbor-01/fantastic-holidays-client-site",
     "ServerSiteLink": "https://github.com/RaselMadbor-01/fantastic-holidays-server-site/"
@@ -16,6 +30,13 @@
     "id": 3,
     "projectName": "Health And Hope Hospital",
     "image": "https://i.imgur.com/I0LUQNI.png",
+    "detailInfo":"This is an Hospital website.In this website ,I use bootstrap ,react,react-routing etc.In this website ,I use bootstrap ,react,react-routing etc.In the site there are many route part was used like services,about us, contact us etc.I am also use some animation in this site.",
+  
+      "image1": "https://i.imgur.com/KfBACnI.png",
+      "image2": "https://i.imgur.com/APIZ1pH.png",
+      "image3": "https://i.imgur.com/qTRwKc1.png",
+      "image4": "https://i.imgur.com/15V2A2W.png",
+ 
     "LiveSiteLink": "https://health-and-hope-hospital-1e98f.web.app/",
     "ClientSiteLink": "https://github.com/RaselMadbor-01/health-and-hope-hospital"
   }]

@@ -14,12 +14,13 @@ const useStyles = makeStyles((theme) => ({
     position: "absolute",
     top: "145px",
     right: "25px",
+    zIndex:"2",
     backgroundColor:"transparent",
     [theme.breakpoints.down("sm")]: {
       position: "fixed",
-      top: "84%",
+      top: "85%",
       right: "0%",
-      backgroundColor: "rgb(174, 10, 207)",
+      backgroundColor: "rgb(224 13 250)",
       height: "44px",
       padding:"20px 0",
       width:"100%"
@@ -51,7 +52,7 @@ const Navigation = () => {
           <NavLink
             to="/home"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(174, 10, 207)" : "white",
+              color: isActive ? "rgb(224 13 250)" : "white",
               textDecoration: "none",
             })}
           >
@@ -69,7 +70,7 @@ const Navigation = () => {
           <NavLink
             to="/about"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(174, 10, 207)" : "white",
+              color: isActive ? "rgb(224 13 250)" : "white",
               textDecoration: "none",
             })}
           >
@@ -87,7 +88,7 @@ const Navigation = () => {
           <NavLink
             to="/portfolio"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(174, 10, 207)" : "white",
+              color: isActive ? "rgb(224 13 250)" : "white",
               textDecoration: "none",
             })}
           >
@@ -105,7 +106,7 @@ const Navigation = () => {
           <NavLink
             to="/contact"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(174, 10, 207)" : "white",
+              color: isActive ? "rgb(224 13 250)" : "white",
               textDecoration: "none",
             })}
           >
@@ -123,7 +124,7 @@ const Navigation = () => {
           <NavLink
             to="/blog"
             style={({ isActive }) => ({
-              color: isActive ? "rgb(174, 10, 207)" : "white",
+              color: isActive ? "rgb(224 13 250)" : "white",
               textDecoration: "none",
             })}
           >

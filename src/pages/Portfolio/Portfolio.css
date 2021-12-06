@@ -1,9 +1,34 @@
-.card-info{
-  background-color:rgba(89,89,89,1);
-  padding:15px;
-  border:1px solid #111;
-  border-radius:15px;
-};
-.card-info:hover{
-   background-color:#000;
+.cardInfo{
+  position:relative;
+  max-width:373px;
+  max-height:230px;
+  overflow: hidden;
+  margin:0 auto;
+  
+}
+.cardText{
+  position: absolute;
+  top:0%;
+  left:0%;
+  padding-top: 87px;
+  background-color:#292128e6;
+  width:373px;
+  height:143px;
+    display:none;
+}
+.cardPhoto{
+ max-width:373px;
+  max-height:230px;
+  overflow: hidden;
+  transition:transform 2s linear;
+}
+.cardInfo:hover .cardPhoto{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.cardInfo:hover .cardText{
+  display:block;
+ 
+
+
 }
