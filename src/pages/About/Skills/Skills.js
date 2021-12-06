@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     width:"420px",
     paddingBottom:"30px",
     [theme.breakpoints.down("sm")]: {
-      width:"300px"
+      width:"200px"
     },
   },
 }));
@@ -21,6 +21,9 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
   width: 420,
   borderRadius: 5,
+  [theme.breakpoints.down("sm")]: {
+    width:"300px",
+  },
   [`&.${linearProgressClasses.colorPrimary}`]: {
     backgroundColor:
       theme.palette.grey[theme.palette.mode === "#201f1f" ? 200 : 800],
