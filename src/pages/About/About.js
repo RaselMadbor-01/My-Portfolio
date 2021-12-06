@@ -24,10 +24,10 @@ const About = () => {
   return (
     <div
       style={{
-        backgroundColor: "rgba(44,43,45,1)",
-        color: "white",
-        height: "100%",
-        padding: "50px 0",
+        backgroundColor:"rgba(44,43,45,1)",
+        color:"white",
+        height:"100%",
+        padding:"50px 0 150px 0",
       }}
     >
       <Container>
@@ -51,7 +51,7 @@ self-thought.Comfortable with React, Node, MongoDB, and many web-based
 technologies. My passion is to learn new technologies.
       </Typography>
           <Grid container spacing={4}>
-            <Grid item  sx={{pr:16}}  sm={12} md={6}>
+            <Grid item  sm={12} md={6}>
               <PersonalInfo />
             </Grid>
             <Grid item  sm={12} md={6}>

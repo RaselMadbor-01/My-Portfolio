@@ -9,20 +9,20 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   skillWidth: {
-    width:"420px",
+    width:"100%",
     paddingBottom:"30px",
     [theme.breakpoints.down("sm")]: {
-      width:"200px"
+      width:"100%"
     },
   },
 }));
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
-  width: 420,
+  width: "100%",
   borderRadius: 5,
   [theme.breakpoints.down("sm")]: {
-    width:"300px",
+    width:"90vw",
   },
   [`&.${linearProgressClasses.colorPrimary}`]: {
     backgroundColor:

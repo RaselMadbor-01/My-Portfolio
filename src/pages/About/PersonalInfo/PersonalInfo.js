@@ -5,6 +5,16 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import { purple } from "@mui/material/colors";
 import Grid from "@mui/material/Grid";
+import { makeStyles } from "@material-ui/core";
+
+const useStyles = makeStyles((theme) => ({
+  personalSection: {
+    width:"430px",
+    [theme.breakpoints.down("sm")]: {
+     width:"100%"
+    },
+  },
+}));
 
 const ColorButton = styled(Button)(({ theme }) => ({
     color: theme.palette.getContrastText(purple[500]),
@@ -14,14 +24,10 @@ const ColorButton = styled(Button)(({ theme }) => ({
     },
   }));
 const PersonalInfo = () => {
+  const classes=useStyles();
   return (
-    <div style={{width:"100%"}}>
-        {/* <Avatar
-        alt="Remy Sharp"
-        src={photo2}
-        sx={{ width: 150, height: 156, bgcolor: pink[500],mx:"auto" }}
-        /> */}
-      <Typography
+    <div className={classes.personalSection}>
+     <Typography
         style={{ textAlign: "center" }}
         variant="h4"
         gutterBottom
